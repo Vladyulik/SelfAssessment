@@ -1,11 +1,11 @@
 ## Node.js and backend
 
 - Internals and concepts
-  - Strong and weak sides of node.js
-  - Stateful and stateless servers
+  - Strong and weak sides of node.js: 👂 heard
+  - Stateful and stateless servers: 🎓 known
   - Nonblocking I/O and slocking code: 🎓 known
-  - Event loop: phases: 🎓 known
-  - Event loop: microtasks and macrotasks: 🎓 known
+  - Event loop: phases: 🙋 explained
+  - Event loop: microtasks and macrotasks: 🙋 explained
   - Garbage collection: 🎓 known
   - Node.js LTS schedule
   - I/O-bound, CPU-bound, memory-bound tasks
@@ -20,27 +20,27 @@
   - Dependencies: npm, node_modules: 🖐️ used
   - Dependencies: package.json and package lock: 🖐️ used
   - Module-based permissions model
-  - Isolation with modularity: 👂 heard
-  - Dependency injection: 👂 heard
+  - Isolation with modularity: 🎓 known
+  - Dependency injection: 🎓 known
   - DI containers
-  - Coupling and cohesion: 👂 heard
+  - Coupling and cohesion: 🎓 known
   - Framework agnostic approach
 - Environment
   - Command line arguments: 🎓 known
   - Node.js CLI
   - Process-based permissions
-  - Graceful shutdown
+  - Graceful shutdown: 👂 heard
   - Clustering: 👂 heard
   - Watch filesystem changes with --watch
 - Internal API
-  - Streams API
-  - Web Streams API
-  - Crypto API
-  - Password hashing with node:crypto.scrypt
-  - Web Crypto API
+  - Streams API: 👂 heard
+  - Web Streams API: 👂 heard
+  - Crypto API: 👂 heard
+  - Password hashing with node:crypto.scrypt: 👂 heard
+  - Web Crypto API: 👂 heard
   - File system API: sync and async: 🖐️ used
   - Copy folder recursively
-  - Worker threads
+  - Worker threads: 🎓 known
   - Performance hooks
   - Native fetch and nodejs/undici
   - node:async_hooks
@@ -54,21 +54,21 @@
   - node:child_process
   - MessageChannel, MessagePort
   - BroadcastChannel
-  - Generating crypto random UUID
+  - Generating crypto random UUID: 👂 heard
   - node:url vs new URL
-  - node:assert: 🎓 known
+  - node:assert: 🖐️ used
   - Internationalization
   - Blob, File, Buffer, node:buffer: 🎓 known
   - Module node:zlib
 - Application structure and architecture
-  - Isolation between layer
+  - Isolation between layer: 🎓 known
   - Multilayer approach: 🎓 known
-  - Separation of concerns: 👂 heard
-  - Inversion of control: 👂 heard
-  - Dependency injection: 👂 heard
-  - GRASP: 👂 heard
-  - SOLID: 👂 heard
-  - GoF patterns: 👂 heard
+  - Separation of concerns: 🎓 known
+  - Inversion of control: 🎓 known
+  - Dependency injection: 🎓 known
+  - GRASP: 🎓 known
+  - SOLID: 🎓 known
+  - GoF patterns: 🎓 known
   - Distributed systems: 👂 heard
   - Highload applications: 👂 heard
   - Clean architecture: 👂 heard
@@ -86,24 +86,24 @@
 - Network
   - IP sticky sessions: 🎓 known
   - Endpoint throttling: 🎓 known
-  - HTTP(S): 🎓 known
-  - TCP/SSL: 🎓 known
-  - UDP: 🎓 known
-  - TLS: 🎓 known
-  - Websocket: 🎓 known
+  - HTTP(S): 🙋 explained
+  - TCP/SSL: 🙋 explained
+  - UDP: 🙋 explained
+  - TLS: 🙋 explained
+  - Websocket: 🙋 explained
   - SSE
   - HTTP/3 (QUIC)
   - Long polling
-  - REST: 👂 heard
-  - RPC: 👂 heard
-  - Routing
-  - DoS: 👂 heard
-  - DDoS: 👂 heard
+  - REST: 🖐️ used
+  - RPC: 🎓 known
+  - Routing: 🖐️ used
+  - DoS: 🎓 known
+  - DDoS: 🎓 known
   - XSS
   - Path traversal
   - CSRF
   - DNS: 🎓 known
-  - Fetch API: 👂 heard
+  - Fetch API: 🎓 known
   - IncomingMessage
   - SQL injection: 🎓 known
   - noDelay: 🎓 known
@@ -132,24 +132,24 @@
 - Data access
   - Data access layer: 🎓 known
   - Repository: 🎓 known
-  - Active record
+  - Active record: 🎓 known
   - Query builder: 🎓 known
-  - Object-Relational Mapping
+  - Object-Relational Mapping: 🎓 known
 - Error handling and debugging
-  - Error: 🎓 known
-  - error.cause: 🎓 known
-  - error.code: 🎓 known
-  - error.message: 🎓 known
-  - error.stack: 🎓 known
+  - Error: 🙋 explained
+  - error.cause: 🖐️ used
+  - error.code: 🖐️ used
+  - error.message: 🖐️ used
+  - error.stack: 🖐️ used
   - How to avoid mixins
-  - Error.captureStackTrace
-  - Uncaught exceptions
+  - Error.captureStackTrace: 🎓 known
+  - Uncaught exceptions: 🎓 known
   - Heap dump: 🎓 known
-  - Debugging tools
+  - Debugging tools: 🎓 known
   - Flame graph: 👂 heard
   - Memory leaks: 🎓 known
   - Resource leaks: 🎓 known
-  - Data race
+  - Data race: 🎓 known
 - Integrations and bindings
   - Native addons
   - C and C++ addons
@@ -167,4 +167,4 @@
   - Webassembly AssemblyScript
   - Shared memory
   - SharedArrayBuffer
-  - V8 binary serialization
+  - V8 binary serialization: 👂 heard
